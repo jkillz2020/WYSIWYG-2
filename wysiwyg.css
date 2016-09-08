@@ -1,3 +1,24 @@
-.body{
+/*body{
+  background-color: lightblue;
+}*/
+
+img{
+  height: 50%;
+  width: 50%;
+}
+
+.person_container:nth-of-type(2n){
+  background-color: lightyellow;
+}
+
+.person_container:nth-of-type(2n+1){
   background-color: lightblue;
 }
+
+.border{
+  border-style: dotted;
+  border-color: black 1px;
+}
+
+
+
